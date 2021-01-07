@@ -33,6 +33,8 @@ services:
     entrypoint: /bin/bash
     command:
       - -c
+      #- pip install --upgrade pip && pip install ./py_packages/requirements.txt
+      #- ls && pwd
       - airflow users list || ( airflow db init &&
         airflow users create
           --role Admin
