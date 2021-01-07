@@ -1,0 +1,12 @@
+requests-kerberos
+urllib3
+MarkupSafe
+pycparser
+PyHive
+pykerberos
+python-dateutil
+pywebhdfs
+requests
+requests-kerberos
+sasl
+six
