@@ -10,11 +10,12 @@ args = {
     'owner': 'airflow',
     'depends_on_past': False,
     'start_date': datetime(2016, 10, 14, 16, 12),
+    'schedule_interval': '0 * * * *',
     'retries': 5,
     'retry_delay': timedelta(minutes=1),
 }
 
-with DAG(dag_id='hello_world_dag', 
+with DAG(dag_id='hello_world_dag2', 
          default_args=args) as dag:
 
     start_dag = DummyOperator(task_id='START_dag')

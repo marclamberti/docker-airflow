@@ -11,6 +11,7 @@ args = {
     'depends_on_past': False,
     'start_date': datetime(2016, 10, 14, 16, 12),
     'retries': 5,
+    'schedule_interval': '0 * * * *',
     'retry_delay': timedelta(minutes=1),
 }
 
