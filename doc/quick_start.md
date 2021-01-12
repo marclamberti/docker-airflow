@@ -18,7 +18,7 @@ docker-compose -f docker-compose.yml up -d
 ### QA inside Docker
 ```bash
 docker ps -a 
-# find the "airflow_init" one 
+# find the "airflow_scheduler" one 
 docker exec -it <instance_id> bash
 # QA command
 ```
