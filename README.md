@@ -21,6 +21,9 @@ By default, docker-airflow runs Airflow with **LocalExecutor** :
 
     docker-compose -f docker-compose.yml up -d
 
+Default username/password :
+airflow/airfloe
+
 NB : If you want to have DAGs example loaded (default=False), you've to set the following environment variable :
 
 `AIRFLOW__CORE__LOAD_EXAMPLES`
