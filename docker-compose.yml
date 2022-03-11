@@ -12,7 +12,7 @@ x-airflow-common:
     - ./dags:/opt/airflow/dags
     - ./airflow-data/logs:/opt/airflow/logs
     - ./airflow-data/plugins:/opt/airflow/plugins
-    - ./airflow-data/airflow.cfg:/opt/airlfow/airflow.cfg
+    - ./airflow-data/airflow.cfg:/opt/airflow/airflow.cfg
   depends_on:
     - postgres
 
