@@ -35,3 +35,8 @@ Go to Admin -> Connections and Edit "postgres_default" set this values (equivale
 - Password : postgres
 
 Enjoy!
+
+
+### Infrastructure model
+
+![Infrastructure model](.infragenie/infrastructure_model.png)
